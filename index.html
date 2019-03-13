@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .hide {
+                display:none;
+            }
+            #queFI, #queFR{
+            color:blue; 
+            font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <form>
+            <h1>Kielitenttaaja</h1>
+            Type a word and it's translation: <br>
+            <input type="text" id="FIN" placeholder="in Finnish"/>
+            <input type="text" id="FRE" placeholder="in French"/>
+            <br><br>
+            <input type="button" value="submit" onclick="insert()"/>
+            <br><br>
+        </form>
+
+        <form>
+            <input type="button" value="show/hide the library" onclick="hide()"/>
+            <br><br>
+            <div id="answer"></div>
+        </form>
+            
+        <br><hr><br>
+
+  <button onclick="ranFI()" >Ask a Finnish word</button> <br>
+  <div id="queFI"></div> <br>
+
+  Translate it:<br>
+  <input type="text" id="answerFR" placeholder="your answer">
+  <input type="button" value="GO!" onclick="check()">
+  <div id="tuomio"></div>
+
+<br><br>
+
+  <button onclick="ranFR()" >Ask a French word</button>
+  <div id="queFR"></div>
+  
+        <script src="main.js">
+
+        </script>
+    </body>
+</html>
