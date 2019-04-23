@@ -1,4 +1,4 @@
 # Kielitenttaaja
-Kielitenttarilla voi tentata itseltään sanoja. Sanat syötetään tenttarille, joka kysyy niitä satunnaisessa järjestyksessä ja kertoo onko vastaus oikein vai ei. 
+With 'Language Griller' you can study by rehearsing the wanted words. First the words and their translations are being fed for the app. After that it gives you a random word from the list with the chosen language. You must give the translation, and the app will tell wether the ansver is correct or not.
 
-Rakensin tätä ensin annetun express-esimerkin pohjalta, jonka kanssa jumitin monta päivää. Lopulta se lähti sujumaan näin simppelimmin, tosin pidemmälle vietynä sanat olisi hyvä saada varastoitua, ja miksei luokiteltuakin, jotta niitä ei tarvitsisi joka kerta syöttää uudelleen. Aika lensi, joten viimeinen vaihe, eli annetun vastauksen tarkistaminen jäi minulta vielä keksimättä.
+For now the app in in the stage of taking the words in and it can give you a random word. The function to compare the words is on the process.
